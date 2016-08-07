@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 9997531835b451e408002cfd471fecba
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: MHuman
+    100002: MHuman_Chest
+    100004: MHuman_Head
+    100006: MHuman_Hip
+    100008: MHuman_L_Foot
+    100010: MHuman_L_Hand
+    100012: MHuman_L_Index_Distal
+    100014: MHuman_L_Index_Intermediate
+    100016: MHuman_L_Index_Proximal
+    100018: MHuman_L_Little_Distal
+    100020: MHuman_L_Little_Intermediate
+    100022: MHuman_L_Little_Proximal
+    100024: MHuman_L_Lower_Arm
+    100026: MHuman_L_Lower_Leg
+    100028: MHuman_L_Middle_Distal
+    100030: MHuman_L_Middle_Intermediate
+    100032: MHuman_L_Middle_Proximal
+    100034: MHuman_L_Ring_Distal
+    100036: MHuman_L_Ring_Intermediate
+    100038: MHuman_L_Ring_Proximal
+    100040: MHuman_L_Shoulder
+    100042: MHuman_L_Thumb_Distal
+    100044: MHuman_L_Thumb_Intermediate
+    100046: MHuman_L_Thumb_Proximal
+    100048: MHuman_L_Toes
+    100050: MHuman_L_Upper_Arm
+    100052: MHuman_L_Upper_Leg
+    100054: MHuman_Neck
+    100056: MHuman_R_Foot
+    100058: MHuman_R_Hand
+    100060: MHuman_R_Index_Distal
+    100062: MHuman_R_Index_Intermediate
+    100064: MHuman_R_Index_Proximal
+    100066: MHuman_R_Little_Distal
+    100068: MHuman_R_Little_Intermediate
+    100070: MHuman_R_Little_Proximal
+    100072: MHuman_R_Lower_Arm
+    100074: MHuman_R_Lower_Leg
+    100076: MHuman_R_Middle_Distal
+    100078: MHuman_R_Middle_Intermediate
+    100080: MHuman_R_Middle_Proximal
+    100082: MHuman_R_Ring_Distal
+    100084: MHuman_R_Ring_Intermediate
+    100086: MHuman_R_Ring_Proximal
+    100088: MHuman_R_Shoulder
+    100090: MHuman_R_Thumb_Distal
+    100092: MHuman_R_Thumb_Intermediate
+    100094: MHuman_R_Thumb_Proximal
+    100096: MHuman_R_Toes
+    100098: MHuman_R_Upper_Arm
+    100100: MHuman_R_Upper_Leg
+    100102: //RootNode
+    100104: MHuman_Spine
+    100106: Tiptoe
+    100108: Tiptoe 1
+    100110: tophead
+    100112: transform1
+    400000: MHuman
+    400002: MHuman_Chest
+    400004: MHuman_Head
+    400006: MHuman_Hip
+    400008: MHuman_L_Foot
+    400010: MHuman_L_Hand
+    400012: MHuman_L_Index_Distal
+    400014: MHuman_L_Index_Intermediate
+    400016: MHuman_L_Index_Proximal
+    400018: MHuman_L_Little_Distal
+    400020: MHuman_L_Little_Intermediate
+    400022: MHuman_L_Little_Proximal
+    400024: MHuman_L_Lower_Arm
+    400026: MHuman_L_Lower_Leg
+    400028: MHuman_L_Middle_Distal
+    400030: MHuman_L_Middle_Intermediate
+    400032: MHuman_L_Middle_Proximal
+    400034: MHuman_L_Ring_Distal
+    400036: MHuman_L_Ring_Intermediate
+    400038: MHuman_L_Ring_Proximal
+    400040: MHuman_L_Shoulder
+    400042: MHuman_L_Thumb_Distal
+    400044: MHuman_L_Thumb_Intermediate
+    400046: MHuman_L_Thumb_Proximal
+    400048: MHuman_L_Toes
+    400050: MHuman_L_Upper_Arm
+    400052: MHuman_L_Upper_Leg
+    400054: MHuman_Neck
+    400056: MHuman_R_Foot
+    400058: MHuman_R_Hand
+    400060: MHuman_R_Index_Distal
+    400062: MHuman_R_Index_Intermediate
+    400064: MHuman_R_Index_Proximal
+    400066: MHuman_R_Little_Distal
+    400068: MHuman_R_Little_Intermediate
+    400070: MHuman_R_Little_Proximal
+    400072: MHuman_R_Lower_Arm
+    400074: MHuman_R_Lower_Leg
+    400076: MHuman_R_Middle_Distal
+    400078: MHuman_R_Middle_Intermediate
+    400080: MHuman_R_Middle_Proximal
+    400082: MHuman_R_Ring_Distal
+    400084: MHuman_R_Ring_Intermediate
+    400086: MHuman_R_Ring_Proximal
+    400088: MHuman_R_Shoulder
+    400090: MHuman_R_Thumb_Distal
+    400092: MHuman_R_Thumb_Intermediate
+    400094: MHuman_R_Thumb_Proximal
+    400096: MHuman_R_Toes
+    400098: MHuman_R_Upper_Arm
+    400100: MHuman_R_Upper_Leg
+    400102: //RootNode
+    400104: MHuman_Spine
+    400106: Tiptoe
+    400108: Tiptoe 1
+    400110: tophead
+    400112: transform1
+    4300000: MHuman
+    9500000: //RootNode
+    13700000: MHuman
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
