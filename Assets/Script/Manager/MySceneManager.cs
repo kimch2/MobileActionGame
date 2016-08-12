@@ -12,7 +12,7 @@ public class MySceneManager : SingletonBehaviourScript<MySceneManager>
 	protected override void Awake()
 	{
 		base.Awake();
-		DontDestroyOnLoad(this.gameObject);
+		//DontDestroyOnLoad(this.gameObject);
 		Application.targetFrameRate = 60;
 	}
 

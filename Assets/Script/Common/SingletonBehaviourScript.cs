@@ -36,6 +36,7 @@ public abstract class SingletonBehaviourScript<T> : MonoBehaviour where	T : Sing
 
 	virtual protected void Awake()
 	{
+		Debug.Log(gameObject.name);
 		CheckInstance();
 	}
 

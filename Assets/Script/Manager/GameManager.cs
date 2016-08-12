@@ -14,4 +14,13 @@ public class GameManager : SingletonBehaviourScript<GameManager> {
 			Debug.Log("ok");
 		});
 	}
+
+	// タイトル画面へ遷移
+	public void LoadToTitle()
+	{
+		FadeManager.Instance.FadeIn(0.5f, delegate
+		{
+			MySceneManager.Instance.LoadScene("Title");
+		});
+	}
 }

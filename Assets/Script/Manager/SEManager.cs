@@ -6,7 +6,7 @@ public class SEManager : AbstractSoundManager<SEManager>
 	protected override void Awake()
 	{
 		base.Awake();
-		DontDestroyOnLoad(this.gameObject);
+		//DontDestroyOnLoad(this.gameObject);
 	}
 
 	public void PlayShot(AudioClip clip)

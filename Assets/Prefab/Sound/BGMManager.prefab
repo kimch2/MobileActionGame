@@ -12,7 +12,7 @@ GameObject:
   - 114: {fileID: 11459070}
   m_Layer: 0
   m_Name: BGMManager
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: dc6c91c7d5564b342a8383305ab100d9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_BaseVolume: 0.504
   m_CrossFadeRatio: 1
   fadeTime: 1
-  m_BGMListObject: {fileID: 0}
+  m_BGMListObject: {fileID: 11400000, guid: f197818b74eaf0348b819d306160141d, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

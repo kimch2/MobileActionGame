@@ -18,7 +18,7 @@ public class FadeManager : SingletonBehaviourScript<FadeManager> {
 	protected override void Awake()
 	{
 		base.Awake();
-		DontDestroyOnLoad(this.gameObject);
+		//DontDestroyOnLoad(this.gameObject);
 
 		Color color		= m_Image.color;
 		color.a			= 1.0f;

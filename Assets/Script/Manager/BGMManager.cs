@@ -21,7 +21,7 @@ public class BGMManager : AbstractSoundManager<BGMManager>
 		m_SubAudioSource = gameObject.AddComponent<AudioSource>();
 		m_SubAudioSource.playOnAwake = false;
 
-		DontDestroyOnLoad(this.gameObject);
+		//DontDestroyOnLoad(this.gameObject);
 	}
 
 	// BGMリストの設定
