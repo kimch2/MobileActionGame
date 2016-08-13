@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SEManager : AbstractSoundManager<SEManager>
+public class SE2DManager : AbstractSoundManager<SE2DManager>
 {
 	protected override void Awake()
 	{

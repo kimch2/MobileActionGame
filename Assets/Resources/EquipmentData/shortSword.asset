@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb7b43fae1e7ff4dbff202a4abc5765, type: 3}
+  m_Name: shortSword
+  m_EditorClassIdentifier: 
+  model: {fileID: 100000, guid: fa660f2976b1df147a6d426b96bd8981, type: 3}
+  localPosition: {x: -0.0641, y: 0.0156, z: 0}
+  localRotation: {x: 120, y: 90, z: 90}
+  scale: {x: 1, y: 1, z: 1}

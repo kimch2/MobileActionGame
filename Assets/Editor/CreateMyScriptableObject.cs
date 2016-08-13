@@ -36,4 +36,10 @@ public class CreateMyScriptableObject : MonoBehaviour
 	{
 		CreateAssets<BGMListObject>("BGMData");
 	}
+
+	[MenuItem("Assets/Create/MyAssets/EquipmentObject")]
+	public static void CreateEquipmentObject()
+	{
+		CreateAssets<EquipmentObject>("EquipmentData");
+	}
 }

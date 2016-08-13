@@ -38,7 +38,7 @@ public class RollCanvas : MonoBehaviour {
 	void setPreRoll(CanvasMode arg_mode)
 	{
 		mode = arg_mode;
-		SEManager.Instance.PlayShot(m_UpDownSE);
+		SE2DManager.Instance.PlayShot(m_UpDownSE);
 		stopAngle = 360.0f * ((float)(items.Length - m_NowItemNum) / (float)(items.Length - 1));
 		setImageAndGuideText();
 	}
