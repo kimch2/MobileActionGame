@@ -6,12 +6,13 @@ public class PlayerAttack : MonoBehaviour {
 
 	[SerializeField] private Animator			m_Animator;
 	[SerializeField] private GameObject			m_Hand;
-	[SerializeField] private EquipmentObject	m_SwordObject;
+	[SerializeField] private ChildObject		m_SwordObject;
+	[SerializeField] private ContinuousAttack	m_ContinuousAttack;
 	[SerializeField] private AudioClip			m_SlashSE;
 
-	private GameObject m_Sword;
-	private const int MAX_ATTACK_NUM = 3;
-	private const string ATTACK_STATE_NAME = "NormalAttack";
+	private GameObject		m_Sword;
+	private const int		MAX_ATTACK_NUM = 3;
+	private const string	ATTACK_STATE_NAME = "NormalAttack";
 
 	private bool IsPreTagToAttack = false;
 
@@ -37,6 +38,7 @@ public class PlayerAttack : MonoBehaviour {
 		// 攻撃以外なら値を0に戻す
 		if (IsPreTagToAttack && !IsTagToAttack)
 		{
+			m_ContinuousAttack.ExitAttack(m_Animator.GetInteger(ATTACK_STATE_NAME));
 			m_Animator.SetInteger(ATTACK_STATE_NAME, 0);
         }
 
@@ -51,9 +53,13 @@ public class PlayerAttack : MonoBehaviour {
 		// 最大攻撃回数までいっていたら何もしない
 		if (nowAttackNum == MAX_ATTACK_NUM) return;
 
+		// 仮
+		if(nowAttackNum >= 1) m_ContinuousAttack.ExitAttack(nowAttackNum);
+
 		// 連撃回数加算
 		++nowAttackNum;
 		m_Animator.SetInteger(ATTACK_STATE_NAME, nowAttackNum);
+		m_ContinuousAttack.StartAttack(nowAttackNum);
 		SE2DManager.Instance.PlayShot(m_SlashSE);
 		
 		// 初回の攻撃ならPlayを実行

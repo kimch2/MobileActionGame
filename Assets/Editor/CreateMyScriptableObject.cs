@@ -37,9 +37,15 @@ public class CreateMyScriptableObject : MonoBehaviour
 		CreateAssets<BGMListObject>("BGMData");
 	}
 
-	[MenuItem("Assets/Create/MyAssets/EquipmentObject")]
-	public static void CreateEquipmentObject()
+	[MenuItem("Assets/Create/MyAssets/ChildObject")]
+	public static void CreateChildObject()
 	{
-		CreateAssets<EquipmentObject>("EquipmentData");
+		CreateAssets<ChildObject>("ChildData");
+	}
+
+	[MenuItem("Assets/Create/MyAssets/ContinuosHitObjectList")]
+	public static void CreateContinuosHitObjectList()
+	{
+		CreateAssets<ContinuosHitObjectList>("ContinuosHitObjectList");
 	}
 }

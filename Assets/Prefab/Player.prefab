@@ -397,6 +397,7 @@ GameObject:
   - 82: {fileID: 82000013169089552}
   - 114: {fileID: 11452258}
   - 114: {fileID: 114000013245946604}
+  - 114: {fileID: 114000011765662066}
   - 114: {fileID: 11428016}
   - 114: {fileID: 11459086}
   m_Layer: 8
@@ -1842,6 +1843,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   springManagerAttachedObject: {fileID: 163012}
+--- !u!114 &114000011765662066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6d37fa6d41fd046b7a84aa1a669487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitObjectDatas: {fileID: 11400000, guid: 78e8b330263150e45b3add502e8e8d62, type: 2}
 --- !u!114 &114000013245946604
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1855,4 +1868,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Animator: {fileID: 9513600}
   m_Hand: {fileID: 162654}
-  m_SwordModel: {fileID: 100000, guid: fa660f2976b1df147a6d426b96bd8981, type: 3}
+  m_SwordObject: {fileID: 11400000, guid: 98573e498b576514d91ba54cb54d8f16, type: 2}
+  m_SlashSE: {fileID: 8300000, guid: 821f5d982c0d44548bae8b14b03ffc79, type: 3}
