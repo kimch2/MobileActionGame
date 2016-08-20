@@ -1,0 +1,1387 @@
+fileFormatVersion: 2
+guid: 1f0b1ba5a546a8c439ecd3d2e57fd0bc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: HeadTop
+    100002: Hips
+    100004: LeftArm
+    100006: LeftArm 1
+    100008: LeftFinger1
+    100010: LeftFinger2
+    100012: LeftFingerBase
+    100014: LeftFoot
+    100016: LeftHand
+    100018: LeftLeg
+    100020: LeftToe
+    100022: LeftUpLeg
+    100024: mouse1
+    100026: mouse2
+    100028: Neck
+    100030: polySurface5
+    100032: RightArm
+    100034: RightArm 1
+    100036: RightFinger1
+    100038: RightFinger2
+    100040: RightFingerBase
+    100042: RightFoot
+    100044: RightHand
+    100046: RightLeg
+    100048: RightToe
+    100050: RightUpLeg
+    100052: Spine
+    100054: Spine1
+    100056: //RootNode
+    400000: HeadTop
+    400002: Hips
+    400004: LeftArm
+    400006: LeftArm 1
+    400008: LeftFinger1
+    400010: LeftFinger2
+    400012: LeftFingerBase
+    400014: LeftFoot
+    400016: LeftHand
+    400018: LeftLeg
+    400020: LeftToe
+    400022: LeftUpLeg
+    400024: mouse1
+    400026: mouse2
+    400028: Neck
+    400030: polySurface5
+    400032: RightArm
+    400034: RightArm 1
+    400036: RightFinger1
+    400038: RightFinger2
+    400040: RightFingerBase
+    400042: RightFoot
+    400044: RightHand
+    400046: RightLeg
+    400048: RightToe
+    400050: RightUpLeg
+    400052: Spine
+    400054: Spine1
+    400056: //RootNode
+    4300000: polySurface5
+    7400000: wait
+    7400002: jump
+    7400004: tackle
+    7400006: run1
+    7400008: damage2
+    7400010: damage1
+    7400012: breath
+    7400014: run2
+    7400016: damage3
+    7400018: dead
+    7400020: kick
+    7400022: turnLeft
+    7400024: turnRight
+    7400026: fury
+    9500000: //RootNode
+    13700000: polySurface5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: wait
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 130
+      lastFrame: 520
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .741862953
+        functionName: createQuake
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .741862953
+        functionName: createQuake
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .393660337
+        functionName: jump
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .638343513
+        functionName: jumpDown
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: tackle
+      takeName: Take 001
+      firstFrame: 600
+      lastFrame: 1000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .127240151
+        functionName: startRolling
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .849792838
+        functionName: endRolling
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run1
+      takeName: Take 001
+      firstFrame: 1070
+      lastFrame: 1150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: damage1
+      takeName: Take 001
+      firstFrame: 1200
+      lastFrame: 1240.00012
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: breath
+      takeName: Take 001
+      firstFrame: 1241
+      lastFrame: 2150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .544502616
+        functionName: startBreath
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .910994649
+        functionName: exitBreath
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run2
+      takeName: Take 001
+      firstFrame: 2200
+      lastFrame: 2280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: damage2
+      takeName: Take 001
+      firstFrame: 2300
+      lastFrame: 2380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: damage3
+      takeName: Take 001
+      firstFrame: 2400
+      lastFrame: 2490
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: dead
+      takeName: Take 001
+      firstFrame: 2500
+      lastFrame: 2650
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: kick
+      takeName: Take 001
+      firstFrame: 2700
+      lastFrame: 2860
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .193548113
+        functionName: createKickObject
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .379927933
+        functionName: deleteKickObject
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: turnLeft
+      takeName: Take 001
+      firstFrame: 2900
+      lastFrame: 3100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: turnRight
+      takeName: Take 001
+      firstFrame: 3150
+      lastFrame: 3350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fury
+      takeName: Take 001
+      firstFrame: 3400
+      lastFrame: 3700
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .610966504
+        functionName: startChangeColor
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/LeftArm/LeftArm 1/LeftHand/LeftFingerBase/LeftFinger1/LeftFinger2
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/HeadTop
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1
+        weight: 1
+      - path: Hips/Spine/Spine1/Neck/mouse1/mouse2
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1
+        weight: 1
+      - path: Hips/Spine/Spine1/RightArm/RightArm 1/RightHand/RightFingerBase/RightFinger1/RightFinger2
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
