@@ -13,5 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitChildObjects:
   - {fileID: 114000012573484010, guid: 41834c35f5af4b9458da64200dd53f86, type: 2}
-  - {fileID: 114000012573484010, guid: 41834c35f5af4b9458da64200dd53f86, type: 2}
-  - {fileID: 114000012573484010, guid: 41834c35f5af4b9458da64200dd53f86, type: 2}
+  - {fileID: 114000010933197024, guid: aa7faaf55c7058c4cb642b9416d02861, type: 2}
+  - {fileID: 114000010943036358, guid: 7de0c180bc2977e468ad2d0e89d0755e, type: 2}
