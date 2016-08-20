@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 public class ContinuosHitObject : MonoBehaviour {
 
 	[System.Serializable]
@@ -12,15 +16,15 @@ public class ContinuosHitObject : MonoBehaviour {
 	}
 
 	[SerializeField]
-	private LocalTransform localTransform;
+	private LocalTransform	m_LocalTransform;
 	public ContinuousAttack m_ContinuosAttack;
 
 	// 親の位置からのローカルステータス設定
 	public void SetLocalTransform()
 	{
-		transform.localPosition = localTransform.position;
-		transform.localRotation = Quaternion.Euler(localTransform.rotation.x, localTransform.rotation.y, localTransform.rotation.z);
-		transform.localScale	= localTransform.scale;
+		transform.localPosition = m_LocalTransform.position;
+		transform.localRotation = Quaternion.Euler(m_LocalTransform.rotation.x, m_LocalTransform.rotation.y, m_LocalTransform.rotation.z);
+		transform.localScale	= m_LocalTransform.scale;
 	}
 
 	// 触れた瞬間に判定
@@ -35,4 +39,24 @@ public class ContinuosHitObject : MonoBehaviour {
 
 		}
 	}
+
+#if UNITY_EDITOR
+	// Editorで設定したtransformをスクリプトにすぐ反映できるようにするため作成
+	[CustomEditor(typeof(ContinuosHitObject))]
+	public class ContinuosHitObjectEditor : Editor
+	{
+		public override void OnInspectorGUI()
+		{
+			base.OnInspectorGUI();
+
+			ContinuosHitObject hitObject = target as ContinuosHitObject;
+			if ( GUILayout.Button("LocalTransform更新") )
+			{
+				hitObject.m_LocalTransform.position = hitObject.transform.position;
+				hitObject.m_LocalTransform.rotation = hitObject.transform.rotation.eulerAngles;
+				hitObject.m_LocalTransform.scale	= hitObject.transform.localScale;
+			}
+		}
+	}
+#endif
 }
