@@ -25,7 +25,7 @@ GameObject:
   - 114: {fileID: 114000012573484010}
   m_Layer: 0
   m_Name: ContinusHitObject_0
-  m_TagString: Untagged
+  m_TagString: PlayerAttackObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LocalTransform:
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    scale: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0.5, z: 0.75}
+    rotation: {x: -0, y: 0, z: 0}
+    scale: {x: 2, y: 0.5, z: 1}
   m_ContinuosAttack: {fileID: 0}

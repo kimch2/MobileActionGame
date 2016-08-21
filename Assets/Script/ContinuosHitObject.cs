@@ -27,19 +27,6 @@ public class ContinuosHitObject : MonoBehaviour {
 		transform.localScale	= m_LocalTransform.scale;
 	}
 
-	// 触れた瞬間に判定
-	void OnTriggerEnter(Collider collider)
-	{
-		if (collider.gameObject.tag != "hitObject") return;
-
-		// 攻撃が効くオブジェクトに付与しているIDを渡す
-		if (m_ContinuosAttack.CheckHadHit(0))
-		{
-			// ダメージ判定とか
-
-		}
-	}
-
 #if UNITY_EDITOR
 	// Editorで設定したtransformをスクリプトにすぐ反映できるようにするため作成
 	[CustomEditor(typeof(ContinuosHitObject))]
