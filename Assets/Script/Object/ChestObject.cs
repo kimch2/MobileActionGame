@@ -15,9 +15,9 @@ public class ChestObject : AbstractObject {
 		m_AudioSource = GetComponent<AudioSource>();
 	}
 
-	protected override void Damage()
+	protected override void Damage(int damage)
 	{
-		base.Damage();
+		base.Damage(damage);
 		
 		// ここらへんで死亡かそうではないかで音の判定行う
 		m_AudioSource.PlayOneShot(m_DamageSE);

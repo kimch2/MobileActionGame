@@ -400,6 +400,7 @@ GameObject:
   - 114: {fileID: 114000011765662066}
   - 114: {fileID: 11428016}
   - 114: {fileID: 11459086}
+  - 114: {fileID: 114000013062476398}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -1308,7 +1309,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 116
@@ -1854,7 +1855,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6d37fa6d41fd046b7a84aa1a669487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitObjectDatas: {fileID: 11400000, guid: 78e8b330263150e45b3add502e8e8d62, type: 2}
+  m_HitObjectDatas: {fileID: 11400000, guid: 78e8b330263150e45b3add502e8e8d62, type: 2}
+  m_AbstractObject: {fileID: 114000013062476398}
+--- !u!114 &114000013062476398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588d05a37fa10374ebf497764099b276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Parameter:
+    id: 1111
+    hitPoint: 10
+    attack: 2
+    defence: 0
 --- !u!114 &114000013245946604
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1869,4 +1887,5 @@ MonoBehaviour:
   m_Animator: {fileID: 9513600}
   m_Hand: {fileID: 162654}
   m_SwordObject: {fileID: 11400000, guid: 98573e498b576514d91ba54cb54d8f16, type: 2}
+  m_ContinuousAttack: {fileID: 114000011765662066}
   m_SlashSE: {fileID: 8300000, guid: 821f5d982c0d44548bae8b14b03ffc79, type: 3}

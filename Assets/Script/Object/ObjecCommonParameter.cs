@@ -9,4 +9,7 @@ public class ObjectCommonParameter{
 	public int hitPoint;
 	public int attack;
 	public int defence;
+
+	public bool IsDead() { return hitPoint <= 0; }
+
 }

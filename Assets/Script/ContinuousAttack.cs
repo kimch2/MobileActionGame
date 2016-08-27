@@ -5,19 +5,22 @@ using System.Collections.Generic;
 // 連続攻撃を行うオブジェクトにアタッチすること
 public class ContinuousAttack : MonoBehaviour {
 
-	[SerializeField] private ContinuosHitObjectList hitObjectDatas;
+	[SerializeField] private ContinuosHitObjectList m_HitObjectDatas;
+	[SerializeField] private AbstractObject			m_AbstractObject;
 	private List<GameObject>	hitObjects		= new List<GameObject>();
 	private List<int>			hitObjectIds	= new List<int>();
 
 	// Use this for initialization
 	void Start () {
 		// 判定オブジェクトの準備
-		for(int i = 0; i < hitObjectDatas.hitChildObjects.Count; ++i)
+		for(int i = 0; i < m_HitObjectDatas.hitChildObjects.Count; ++i)
 		{
-			ContinuosHitObject obj = Instantiate<ContinuosHitObject>(hitObjectDatas.hitChildObjects[i]);
+			ContinuosHitObject obj = Instantiate<ContinuosHitObject>(m_HitObjectDatas.hitChildObjects[i]);
 			obj.transform.SetParent(gameObject.transform);
 
 			// 予め設定した値を設定
+			Debug.Log(m_AbstractObject.GetParameter().attack);
+			obj.SetDamageParameter(m_AbstractObject.GetParameter().attack);
 			obj.SetLocalTransform();
 
 			// 自分を判定オブジェクトの変数に格納したら非アクティブ化の後に配列に格納

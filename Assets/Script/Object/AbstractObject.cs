@@ -9,9 +9,16 @@ public class AbstractObject : MonoBehaviour {
 	
 	public ObjectCommonParameter GetParameter() { return m_Parameter; }
 	
-	protected virtual void Damage()
+	protected virtual void Damage(int damage)
 	{
-		Debug.LogFormat("{0}Damage, NowHitPoint：{1}", 0, m_Parameter.hitPoint);
+		m_Parameter.hitPoint -= damage;
+
+		if(m_Parameter.hitPoint <= 0)
+		{
+			m_Parameter.hitPoint = 0;
+			Dead();
+		}
+		Debug.LogFormat("{0}Damage, NowHitPoint：{1}", damage, m_Parameter.hitPoint);
 	}
 
 	protected virtual void Dead()
@@ -23,7 +30,10 @@ public class AbstractObject : MonoBehaviour {
 	{
 		if (collider.gameObject.tag != "PlayerAttackObject") return;
 
-		Debug.Log(collider.tag);
+		//Debug.Log(collider.tag);
+
+		// 死亡時は何もしない
+		if (m_Parameter.IsDead()) return;
 
 		ContinuosHitObject obj = collider.GetComponent<ContinuosHitObject>();
 
@@ -32,7 +42,7 @@ public class AbstractObject : MonoBehaviour {
 		{
 			// ダメージ判定とか
 			Debug.Log("damage");
-			Damage();
+			Damage(obj.GetDamage());
 		}
 	}
 }
