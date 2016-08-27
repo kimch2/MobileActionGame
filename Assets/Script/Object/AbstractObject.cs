@@ -28,12 +28,11 @@ public class AbstractObject : MonoBehaviour {
 		ContinuosHitObject obj = collider.GetComponent<ContinuosHitObject>();
 
 		// 攻撃が効くオブジェクトに付与しているIDを渡す
-		if (obj.m_ContinuosAttack.CheckHadHit(m_Parameter.id))
+		if (!obj.m_ContinuosAttack.CheckHadHit(m_Parameter.id))
 		{
 			// ダメージ判定とか
 			Debug.Log("damage");
+			Damage();
 		}
-
-		Damage();
 	}
 }
