@@ -19,7 +19,7 @@ public class Yeti : AbstractObject {
 	protected override void Dead()
 	{
 		base.Dead();
-		m_Animator.CrossFade("Dead", 0.1f);
+		m_Animator.CrossFade("Dead", 0.3f);
 	}
 
 }

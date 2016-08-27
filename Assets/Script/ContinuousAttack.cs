@@ -58,4 +58,8 @@ public class ContinuousAttack : MonoBehaviour {
 		hitObjectIds.Clear();
 		hitObjects[attackNum-1].SetActive(false);
 	}
+
+	// 引数のオブジェクトがactiveかどうか
+	public bool IsActiveAttackObject(int attackNum) { return hitObjects[attackNum - 1].activeSelf; }
+
 }

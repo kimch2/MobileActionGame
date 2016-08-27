@@ -1889,3 +1889,14 @@ MonoBehaviour:
   m_SwordObject: {fileID: 11400000, guid: 98573e498b576514d91ba54cb54d8f16, type: 2}
   m_ContinuousAttack: {fileID: 114000011765662066}
   m_SlashSE: {fileID: 8300000, guid: 821f5d982c0d44548bae8b14b03ffc79, type: 3}
+  m_AttackMargin:
+  - activeObjectStartTime: 0
+    activeObjectEndTime: 0.8
+    moveNextAttackTime: 0.8
+  - activeObjectStartTime: 0.18
+    activeObjectEndTime: 0.82
+    moveNextAttackTime: 0.86
+  - activeObjectStartTime: 0.15
+    activeObjectEndTime: 0.7
+    moveNextAttackTime: 0
+  m_IsNextMoveToAttack: 0
