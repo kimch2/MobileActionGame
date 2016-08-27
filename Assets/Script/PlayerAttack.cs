@@ -60,7 +60,7 @@ public class PlayerAttack : MonoBehaviour {
 		++nowAttackNum;
 		m_Animator.SetInteger(ATTACK_STATE_NAME, nowAttackNum);
 		m_ContinuousAttack.StartAttack(nowAttackNum);
-		SE2DManager.Instance.PlayShot(m_SlashSE);
+		SEManager.Instance.PlayShot(m_SlashSE);
 		
 		// 初回の攻撃ならPlayを実行
 		if (nowAttackNum != 1) return;

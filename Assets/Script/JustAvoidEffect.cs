@@ -21,7 +21,7 @@ public class JustAvoidEffect : MonoBehaviour {
 
 		m_GlassDistortionWave.StartWave(position);
 
-		SE2DManager.Instance.PlayShot(m_PlaySE);
+		SEManager.Instance.PlayShot(m_PlaySE);
 	}
 
 	void Update()
