@@ -4,7 +4,7 @@ using UnityStandardAssets.CrossPlatformInput;
 using System;
 
 public class PlayerMove : MonoBehaviour {
-	[SerializeField] private Animator			m_Animator;
+	[SerializeField] private ObjectAnimator		m_ObjAnimator;
 	[SerializeField] private Transform			m_ModelTransform;
 	[SerializeField] private Rigidbody			m_Rigidbody;
 	[SerializeField] private CreateAfterImage	m_CreateAfterImage;
@@ -43,10 +43,10 @@ public class PlayerMove : MonoBehaviour {
 		if (m_IsPlaySpecialAction)
 		{
 			// ハッシュの移行確認
-			if(!m_IsChangeHash && m_NowPlayAnimationHash != m_Animator.GetCurrentAnimatorStateInfo(0).fullPathHash)
+			if(!m_IsChangeHash && m_NowPlayAnimationHash != m_ObjAnimator.GetCurrentAnimationHash())
 			{
 				m_IsChangeHash = true;
-				m_NowPlayAnimationHash = m_Animator.GetCurrentAnimatorStateInfo(0).fullPathHash;
+				m_NowPlayAnimationHash = m_ObjAnimator.GetCurrentAnimationHash();
             }
 
 			m_SpecialActionFunc();
@@ -90,15 +90,13 @@ public class PlayerMove : MonoBehaviour {
 		{
 			m_CreateAfterImage.IsCreating = false;
 		}
-		m_Animator.SetBool("IsMove", spdVec != Vector3.zero);
+		m_ObjAnimator.SetBool("IsMove", spdVec != Vector3.zero);
 	}
 
 	private void ActionAvoidance()
 	{
-		AnimatorStateInfo stateInfo = m_Animator.GetCurrentAnimatorStateInfo(0);
-
 		// 一定秒数内は完全回避判定をONにする
-		CheckJustAvoidTime(stateInfo.normalizedTime);
+		CheckJustAvoidTime(m_ObjAnimator.GetCurrentAnimationNormalizedTime());
 
 		float movePower = 5.0f * Time.deltaTime;
 
@@ -106,15 +104,13 @@ public class PlayerMove : MonoBehaviour {
 		m_ModelTransform.position = transform.position;
 
 		// 終了判断
-		CheckExitAction(stateInfo);
+		CheckExitAction();
 	}
 
 	private void ActionRearRolling()
 	{
-		AnimatorStateInfo stateInfo = m_Animator.GetCurrentAnimatorStateInfo(0);
-
 		// 一定秒数内は完全回避判定をONにする
-		CheckJustAvoidTime(stateInfo.normalizedTime);
+		CheckJustAvoidTime(m_ObjAnimator.GetCurrentAnimationNormalizedTime());
 
 		float movePower = 5.0f * Time.deltaTime;
 
@@ -122,7 +118,7 @@ public class PlayerMove : MonoBehaviour {
 		m_ModelTransform.position = transform.position;
 
 		// 終了判断
-		CheckExitAction(stateInfo);
+		CheckExitAction();
 	}
 
 	// 完全回避判定のONOFFチェック
@@ -141,10 +137,10 @@ public class PlayerMove : MonoBehaviour {
 	}
 
 	// 終了処理のチェック
-	private void CheckExitAction(AnimatorStateInfo stateInfo)
+	private void CheckExitAction()
 	{
-		if (stateInfo.fullPathHash == m_NowPlayAnimationHash) return;
-		if (stateInfo.normalizedTime < 1.0f) return;
+		if (m_ObjAnimator.GetCurrentAnimationHash() == m_NowPlayAnimationHash) return;
+		if (m_ObjAnimator.GetCurrentAnimationNormalizedTime() < 0.95f) return;
 		//if (stateInfo.IsTag("Action")) return;
 
 		m_IsPlaySpecialAction = false;
@@ -155,12 +151,12 @@ public class PlayerMove : MonoBehaviour {
 
 	public void OnClickActionButton(string motionName)
 	{
-		if (m_IsPlaySpecialAction || m_Animator.GetCurrentAnimatorStateInfo(0).IsTag("Action")) return;
+		if (m_IsPlaySpecialAction || m_ObjAnimator.IsEqualToCurrentAnimationTag("Action")) return;
 
 		// モーション開始 ハッシュを格納しておく
 		// また、この時点では前回のモーションのハッシュが残っているので再度ハッシュ確認を行う必要あり
-		m_Animator.Play(motionName, 0, 0.0f);
-		m_NowPlayAnimationHash = m_Animator.GetCurrentAnimatorStateInfo(0).fullPathHash;
+		m_ObjAnimator.Play(motionName);
+		m_NowPlayAnimationHash = m_ObjAnimator.GetCurrentAnimationHash();
 		m_IsPlaySpecialAction	= true;
 
 		// テスト

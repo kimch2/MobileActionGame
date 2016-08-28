@@ -395,6 +395,7 @@ GameObject:
   - 54: {fileID: 5403210}
   - 136: {fileID: 13690346}
   - 82: {fileID: 82000013169089552}
+  - 114: {fileID: 114000012722220554}
   - 114: {fileID: 11452258}
   - 114: {fileID: 114000013245946604}
   - 114: {fileID: 114000011765662066}
@@ -1531,7 +1532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12b57e315793aa42828cef70519b3cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Animator: {fileID: 9513600}
+  m_ObjAnimator: {fileID: 114000012722220554}
   m_ModelTransform: {fileID: 401008}
   m_Rigidbody: {fileID: 5403210}
   m_CreateAfterImage: {fileID: 11459086}
@@ -1857,6 +1858,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HitObjectDatas: {fileID: 11400000, guid: 78e8b330263150e45b3add502e8e8d62, type: 2}
   m_AbstractObject: {fileID: 114000013062476398}
+--- !u!114 &114000012722220554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cce582b11aa6104083a855b0eaf822f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Animator: {fileID: 9513600}
 --- !u!114 &114000013062476398
 MonoBehaviour:
   m_ObjectHideFlags: 1

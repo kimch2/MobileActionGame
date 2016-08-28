@@ -3,8 +3,7 @@ using System.Collections;
 
 public class Yeti : AbstractObject {
 
-	[SerializeField]
-	private Animator m_Animator;
+	[SerializeField] ObjectAnimator m_ObjAnimator;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +18,7 @@ public class Yeti : AbstractObject {
 	protected override void Dead()
 	{
 		base.Dead();
-		m_Animator.CrossFade("Dead", 0.3f);
+		m_ObjAnimator.CrossFade("Dead", 0.3f);
 	}
 
 }

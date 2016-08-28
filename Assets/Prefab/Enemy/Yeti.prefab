@@ -261,6 +261,7 @@ GameObject:
   - 4: {fileID: 4000011964277688}
   - 54: {fileID: 54000013603923876}
   - 65: {fileID: 65000011783336330}
+  - 114: {fileID: 114000011815770398}
   - 114: {fileID: 114000011357885816}
   m_Layer: 0
   m_Name: Yeti
@@ -611,7 +612,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012660762302}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.134, y: 0, z: 0}
+  m_LocalPosition: {x: 1.51, y: 0, z: 3.53}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -945,6 +946,18 @@ MonoBehaviour:
     hitPoint: 10
     attack: 1
     defence: 0
+  m_ObjAnimator: {fileID: 114000011815770398}
+--- !u!114 &114000011815770398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012660762302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cce582b11aa6104083a855b0eaf822f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Animator: {fileID: 95000010095479646}
 --- !u!137 &137000013522424864
 SkinnedMeshRenderer:
